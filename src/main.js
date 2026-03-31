@@ -1,5 +1,4 @@
-import './style.css'
-// Import just what we need
+import "./style.scss";
 
 // import 'bootstrap/js/dist/alert';
 // import 'bootstrap/js/dist/button';
