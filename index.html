@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -7,7 +7,137 @@
     <title>progetto17</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header id="site-header">
+      <nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#hero">BUND</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+              <a class="nav-link" href="#">Chi siamo </a>
+              <a class="nav-link" href="#">Servizi</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#">Contatti</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="site-content">
+      <section id="hero" class="w-100- vh-100 position-relative">
+        <img
+          src="assets/images/immagine1.jpg"
+          alt=""
+          class="w-100 h-100 object-fit-cover"
+        />
+        <div
+          class="container position-absolute top-50 start-50 translate-middle text-center"
+          style="
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding-block: 2rem;
+          "
+        >
+          <h1>Shanghai Bund</h1>
+          <p>
+            è un celebre lungofiume di circa 1,5 km sulla riva ovest del fiume
+            Huangpu, famoso per il netto contrasto tra i suoi oltre 50 edifici
+            in stile coloniale europeo (ex-"Wall Street d'Oriente") e lo skyline
+            futuristico di Pudong, con grattacieli come la Oriental Pearl Tower,
+            sulla sponda opposta.
+          </p>
+          <button type="button" class="btn btn-danger">Scopri di più</button>
+        </div>
+      </section>
+      <section id="chi-siamo" class="w-100 py-5 text-center">
+        <div class="container">
+          <h2>Descrizione</h2>
+          <p>
+            Il Bund è quindi un museo all'aria aperta che illustra il passato
+            coloniale della moderna metropoli. Gli edifici in stile europeo di
+            quest'area, un tempo sedi di banche straniere e negozi occidentali,
+            preservano il loro aspetto originale del XIX-XX secolo e ci
+            raccontano la storia dell'incontro-scontro tra la Cina e le grandi
+            potenze occidentali.
+          </p>
+        </div>
+      </section>
+      <section id="servizi" class="w-100 py-5 text-center">
+        <div class="container py-5">
+          <h2>Approfonfimento</h2>
+          <p>Sulle curiosità del fiume Bund</p>
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 100%">
+                <img
+                  src="assets/images/servizi/servizio1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Shanghai,China</h5>
+                  <p class="card-text">
+                    Dopo il tramonto, il Bund di Shanghai si trasforma in uno
+                    spettacolo di luci abbaglianti, offrendo una vista iconica
+                    sullo skyline futuristico di Pudong che si riflette sul
+                    fiume Huangpu.È il cuore pulsante della città.
+                  </p>
+                  <a href="#" class="btn btn-danger">Approfondisci</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 100%">
+                <img
+                  src="assets/images/servizi/servizio2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Shanghai,China</h5>
+                  <p class="card-text">
+                    L’architettura di Pudong non si limita ai suoi grattacieli. Il viale Century Avenue attraversa il quartiere per 5 km. Il suo design è unico: 8 giardini botanici si alternano alle sue corsie asimmetriche.
+                  </p>
+                  <a href="#" class="btn btn-danger">Approfondisci</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 100%">
+                <img
+                  src="assets/images/servizi/servizio3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Shanghai,China</h5>
+                  <p class="card-text">
+                    Accanto ai moderni quartieri, ve ne sono altri dove a farla da padrone sono pregevoli edifici storici: è il caso del Bund, che vanta ben 14 edifici posti sotto tutela,tra cui l’antico Consolato inglese,la Chiesa dell’Unione,costruita nel 1876.
+                  </p>
+                  <a href="#" class="btn btn-danger">Approfondisci</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
